@@ -1,0 +1,36 @@
+img {
+	width: 300px;
+	height: 450px;
+	display: block;
+	margin: auto;
+	border-radius: 10px;
+}
+
+.input-busca {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.gifWalter {
+	border-radius: 1000px;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	width: 300px;
+	height: 300px;
+}
+
+.footer {
+	width: 100%;
+	height: 200px;
+	background-image: linear-gradient(to bottom right, #d8dde6, white);
+	color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2%;
+	text-align: center;
+}
+
+body {
+	background-image: linear-gradient(to bottom right, #d8dde6, white);
+}
