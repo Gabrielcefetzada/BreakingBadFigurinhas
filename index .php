@@ -20,12 +20,12 @@ include('conexao.php');
 		<h2 class="title has-text-grey">Bem vindo ao Breaking Bad Figurinhas!</h2>
 		<h2 class="title has-text-grey">Digite o nome de um personagem com letras em caixa alta para consultar dados dele!</h2>
 		<form action="botaoPesquisar.php" method="POST">
-		<div class="input-busca">
-			<input class="input" type="text" placeholder="digite aqui..." name="nome">
-			<button class="button is-info" type="submit">Buscar Personagem</button>
-		</div>	
-</form>
-	<img src="imgs/gifWalter.gif" class="gifWalter">
+			<div class="input-busca">
+				<input class="input" type="text" placeholder="digite aqui..." name="nome">
+				<button class="button is-info" type="submit">Buscar Personagem</button>
+			</div>	
+		</form>
+		<img src="imgs/gifWalter.gif" class="gifWalter">
 	</div>
 
 	<footer>
@@ -33,3 +33,4 @@ include('conexao.php');
 	</footer>
 </body>
 </html>
+

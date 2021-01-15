@@ -40,94 +40,97 @@ $busca_sql = "SELECT * FROM pics.pics WHERE nome = '$nome'";
 				while($dado = mysqli_fetch_assoc($query)){
 					?>
 					<h2 class="title is-3" style="color: green;">Personagem encontrado!</h2>
+					<tr>
+						<td><?php echo $dado['img_id'];?></td>
+						<td><?php echo $dado['nome'];?></td>
+						<td><?php echo $dado['ocupacao'];?></td>
+						<td><?php echo $dado['temporadas'];?></td>
+						<td><?php echo $dado['vivo'];?></td>
+						<td><?php echo $dado['apelido'];?></td>
+					</tr>
+					<?php } ?>
 
 					<?php
-					if($nome == "PAMELA"){
+					
+					switch ($nome) {
+						case "PAMELA":
 						?>
 						<img src="imgs/bbb6muek0tcmbc3g2sog.jpg">
 						<?php
-					}
+						break;
 
-					if($nome == "TORTUGA"){
+						case "TORTUGA":
 						?>
 						<img src="imgs/BBWA_Tortuga.jpg">
 						<?php
-					}
+						break;
 
-					if($nome == "GUSTAVO FRING"){
+						case "GUSTAVO FRING":
 						?>
 						<img src="imgs/BCS_S4_Gustavo_Fring.jpg">
 						<?php
-					}
+						break;
 
-					if($nome == "CARMEN"){
+						case "CARMEN":
 						?>
 						<img src="imgs/Carmen.JPG.jpg.jpg">
 						<?php
-					}
+						break;
 
-					if($nome == "THEODORE BENEKE"){
+						case "THEODORE BENEKE":
 						?>
 						<img src="imgs/Cast_bb_700x1000_todd-beneke-lg.jpg">
 						<?php
-					}
+						break;
 
-					if($nome == "WALTER WHITE"){
+						case "WALTER WHITE":
 						?>
 						<img src="imgs/cast_bb_700x1000_walter-white-lg.jpg">
 						<?php
-					}
+						break;
 
-					if($nome == "DONALD MARGOLIS"){
+						case "DONALD MARGOLIS":
 						?>
 						<img src="imgs/Donald_Margolis.png">
 						<?php
-					}
+						break;
 
-					if($nome == "GRETCHEN SCHARTZ"){
+						case "GRETCHEN SCHARTZ":
 						?>
 						<img src="imgs/Gretchen_Schwartz.png">
 						<?php
-					}
+						break;
 
-					if($nome == "HOLLY"){
+						case "HOLLY":
 						?>
 						<img src="imgs/Holly.JPG.jpg">
 						<?php
-					}
+						break;
 
-					if($nome == "SAXTON"){
+						case "SAXTON":
 						?>
 						<img src="imgs/Officer_Saxton_-_I.F.T..png">
 						<?php
-					}
+						break;
 
-					if($nome == "MARIE SCHARADER"){
+						case "MARIE SCHARADER":
 						?>
 						<img src="imgs/Season_2_-_Marie.jpg">
 						<?php
-					}
-
-					if($nome == "VICTOR"){
+						break;
+						
+						default:
 						?>
-						<img class="img-aparecida" src="imgs/Victor2.png">
+						<h2 class="title is-3" style="color: red;">Personagem não encontrado. Por favor tente novamente.</h2>;
 						<?php
+						break;
 					}
 
 					?>
-						<tr>
-							<td><?php echo $dado['img_id'];?></td>
-							<td><?php echo $dado['nome'];?></td>
-							<td><?php echo $dado['ocupacao'];?></td>
-							<td><?php echo $dado['temporadas'];?></td>
-							<td><?php echo $dado['vivo'];?></td>
-							<td><?php echo $dado['apelido'];?></td>
-						</tr>
-					<?php } 
-					?>
-					<br><br>
-				</table>
-			</div>
+
+				<br><br>
+			</table>
+		</div>
 	</div>
 	<footer>
 		<p class="footer">Código fonte ‍<a href="https://github.com/Gabrielcefetzada/BreakingBadFigurinhas">aqui.</a></p>
