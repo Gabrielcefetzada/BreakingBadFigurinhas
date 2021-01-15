@@ -4,9 +4,9 @@ Vídeo explicativo para entender um pouco de como funciona a plataforma e como f
 
 Tecnologias usadas:
 
-PHP
-CSS
-HTML
-MySql
-Framework para estilização Bulma
+PHP,
+CSS,
+HTML,
+MySql,
+Framework para estilização Bulma e
 Wamp Server
