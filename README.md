@@ -7,7 +7,7 @@ O que você precisa para o projeto rodar na sua máquina?
 img_id (que é auto incrementado e é a primary key) - nome - ocupacao - temporadas - vivo - apelido
 - Cadastrar cada personagem que está no arquivo imgs no banco de dados
 - ATENÇÃO! Nomes dos personagens devem ser escritos todos em caixa alta!!
-- Bolocar todos os arquivos do projeto em um servidor local 
+- Colocar todos os arquivos do projeto em um servidor local 
 - Buscar o localhost e se divertir!
 
 Tecnologias usadas:
