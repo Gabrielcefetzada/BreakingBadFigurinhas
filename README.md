@@ -16,7 +16,7 @@ PHP,
 CSS,
 HTML,
 MySql,
-Framework para estilização Bulma
+Framework para estilização Bulma e
 Wamp Server
 
 PS: Apesar de não saber usar React, tenho um interesse enorme em aprender.
